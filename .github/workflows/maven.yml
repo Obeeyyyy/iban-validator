@@ -2,6 +2,8 @@ name: maven ci
 
 on:
   push:
+    tags:
+      - 'v1.0.0'
 
 jobs:
   build:
